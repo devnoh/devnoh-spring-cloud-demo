@@ -18,7 +18,7 @@ spring:
 #        native:
 #          search-locations: file:///spring-cloud-demo/config-repo/services
         git:
-          uri: https://github.com/devnoh/spring-cloud-demo
+          uri: https://github.com/devnoh/devnoh-spring-cloud-demo
           search-paths: /config-repo/services
 #          username: git_username
 #          password: git_password
