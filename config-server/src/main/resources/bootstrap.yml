@@ -7,9 +7,13 @@ logging:
 
 management:
   endpoints:
-    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
 
 spring:
+  application:
+    name: config-server
 #  profiles:
 #    active: native
   cloud:
